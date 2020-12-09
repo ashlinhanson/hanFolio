@@ -29,7 +29,7 @@ const Contact = () => {
                                                         <br/>
                                                         <li className="listItems"><a href="https://github.com/ashlinhanson" className="links" target="_blank">GitHub</a></li>
                                                         <br/>
-                                                        <li className="listItems"><a href="assets/Media/resume.pdf" class="links" target="_blank">Resume</a></li>
+                                                        <li className="listItems"><a href="../../resume.pdf" class="links" target="_blank">Resume</a></li>
                                                     </ul>
                                                 </div>
                                             </p>
