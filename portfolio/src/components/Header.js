@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header(props) {
     <nav className="navbar navbar-expand-lg navbar-light bg-blue">
       <div className="navbar-brand" id="name">
         {/* nav bar image */}
