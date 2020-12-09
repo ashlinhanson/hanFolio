@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/pages/styles/index.css";
 
 function Header(props) {
   return (
@@ -43,7 +44,7 @@ function Header(props) {
           <li className="nav-item">
             <a 
             className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"} 
-            href="Contact"
+            href="#cssontact"
             onClick={() => props.handlePageChange("Contact")}
             >
               Contact

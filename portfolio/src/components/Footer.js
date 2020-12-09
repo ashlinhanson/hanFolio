@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/pages/styles/index.css"
 
 function Footer() {
     <div className="footer mt-5">

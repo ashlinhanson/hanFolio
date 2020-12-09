@@ -1,8 +1,10 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
+import "./styles/index.css";
 
 const Portfolio = () => {
 
+    return(
     <div>
         {/* <!--Portfolio--> */}
         <h1 className="folioheader">Project Examples</h1>
@@ -17,6 +19,7 @@ const Portfolio = () => {
                 </div>
             </div>
     </div>
+    );
 }
 
 export default Portfolio;

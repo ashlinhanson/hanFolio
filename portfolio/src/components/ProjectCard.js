@@ -1,6 +1,7 @@
 import React from "react";
 //import { Image } from 'cloudinary-react';
 import projects from "../assets/projects.json";
+import "../components/pages/styles/index.css";
 
 function ProjectCard() {
 

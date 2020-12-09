@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import "../components/pages/styles/index.css";
 
 class PortfolioContainer extends Component {
 

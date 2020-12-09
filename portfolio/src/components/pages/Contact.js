@@ -1,6 +1,9 @@
 import React from "react";
+import "./styles/index.css";
 
 const Contact = () => {
+
+    return(
     
     <div className="container-contact">
         <div className="row justify-content-center">
@@ -42,6 +45,7 @@ const Contact = () => {
         </div>
     </div>
 
+    )
 }
 
 export default Contact;
