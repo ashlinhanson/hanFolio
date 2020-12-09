@@ -15,13 +15,31 @@ function Header() {
       <div className="collapse navbar-collapse py-2 justify-content-end" id="navbarSupportedContent">
         <ul className="nav navbar-nav navbar-right">
           <li className="nav-item">
-            <a className="nav-link" href="index.html">About</a>
+            <a 
+            className="nav-link" 
+            href="#about" 
+            onClick={() => props.handlePageChange("About")}
+            >
+              About
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio.html">Portfolio</a>
+            <a 
+            className="nav-link" 
+            href="#portfolio"
+            onClick={() => props.handlePageChange("Portfolio")}
+            >
+              Portfolio
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="contact.html">Contact</a>
+            <a 
+            className="nav-link" 
+            href="#contact"
+            onClick={() => props.handlePageChange("Contact")}
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </div>
