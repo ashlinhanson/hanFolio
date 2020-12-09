@@ -25,7 +25,17 @@ class PortfolioContainer extends Component {
        }
    };
 
-   render
+   render() {
+       return (
+           <div>
+               <Header
+               currentPage={this.state.curentPage}
+               handlePageChange={this.handlePageChange}
+               />
+               {this.renderPage()}
+           </div>
+       )
+   }
 
 }
 
