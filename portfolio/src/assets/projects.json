@@ -1,0 +1,44 @@
+[
+    {
+        "name" : "Parks_n_Req",
+        "summary" : "This app provides information about Texas NPS parks and campgrounds and allows the user to make a reservation at their selected site.",
+        "imageURL" : "https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607552743/parks_n_req_ljvcdz.png",
+        "deployLink" : "https://salty-hamlet-73070.herokuapp.com/",
+        "gitHubLink" : "https://github.com/ashlinhanson/Parks_n_Req"
+    },
+    {
+        "name" : "Work Day Planner",
+        "summary" : "This web application is designed to help the user organize their workday by the hour.",
+        "imageURL" : "https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607552717/weekday_tz70cw.png",
+        "deployLink" : "https://ashlinhanson.github.io/dayPlanner/",
+        "gitHubLink" : "https://github.com/ashlinhanson/dayPlanner"
+    },
+    {
+        "name" : "COVID City Limits",
+        "summary" : "Web application that allows the user to create a festival line-up poster and playlist with the artists chosen.",
+        "imageURL" : "https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607552731/COVIDCityLimits_qowsta.png",
+        "deployLink" : "https://ashlinhanson.github.io/COVIDCityLimits/",
+        "gitHubLink" : "https://github.com/ashlinhanson/COVIDCityLimits"
+    },
+    {
+        "name" : "Employee Management System",
+        "summary" : "This application allows you to enter team members and their contact information to be generated in this template for easy retrieval of imperative info during a team project.",
+        "imageURL" : "https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607552737/managementsys_izg67m.png",
+        "deployLink" : "null",
+        "gitHubLink" : "https://github.com/ashlinhanson/employeeManagementTemplate"
+    },
+    {
+        "name" : "JavaScript Knowledge Quiz",
+        "summary" : "This web application is a quiz designed to test the user on their knowledge of JavaScript.",
+        "imageURL" : "https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607552727/code-quiz_yqetlw.png",
+        "deployLink" : "https://ashlinhanson.github.io/codeQuiz/",
+        "gitHubLink" : "https://github.com/ashlinhanson/codeQuiz"
+    },
+    {
+        "name" : "Eat Dat Burger",
+        "summary" : "This web application allows you to toggle between eating a burger and 'uneating' a burger. You can also add a custom burger for you to devour as well.",
+        "imageURL" : "https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607552723/4_rq7nqq.png",
+        "deployLink" : "https://secure-mountain-07591.herokuapp.com/",
+        "gitHubLink" : "https://github.com/ashlinhanson/burger"
+    }
+]
