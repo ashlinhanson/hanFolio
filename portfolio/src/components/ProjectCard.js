@@ -1,5 +1,5 @@
 import React from "react";
-import { Image } from 'cloudinary-react';
+//import { Image } from 'cloudinary-react';
 import projects from "../assets/projects.json";
 
 function ProjectCard() {
