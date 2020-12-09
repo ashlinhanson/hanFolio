@@ -1,12 +1,14 @@
 import React from "react";
 
 const About = () => {
+  return (
+
     <div className="container">
-      <h1 className="display-4 text-right" style="font-size: 100px">Hey there!</h1>
+      <h1 className="display-4 text-right" style={{fontSize: "100px"}}>Hey there!</h1>
       <div className="jumbotron jumbotron-fluid my-5">
         <div className="container">
           {/* profile photo */}
-          <img src="../assets/me.jpeg" alt="profile" id="profileImg" style="height: 300px"/>
+          <img src="../assets/me.jpeg" alt="profile" id="profileImg" style={{height: "300px"}}/>
           {/* bio paragraph */}
           <p className="lead">
           My name is Ashli Hanson and I am a Full Stack web developer residing
@@ -38,6 +40,7 @@ const About = () => {
         </div>
       </div>
     </div>
+  );
 }
 
 export default About;
