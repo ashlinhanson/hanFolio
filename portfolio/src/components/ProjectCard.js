@@ -9,7 +9,7 @@ function ProjectCard() {
         {projects.map(project => (
             <div className="col-md-4">
                 <div className="card">
-                    <img src={project.imageURL} className="card-img-top" alt="" style="height: 350px"/>
+                    <img src={project.imageURL} className="card-img-top" alt={project.name} style={{height: "350px"}}/>
                         <div className="card-body">
                             <h5 className="card-title">{project.name}</h5>
                             <p className="card-text">
