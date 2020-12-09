@@ -33,6 +33,7 @@ class PortfolioContainer extends Component {
                currentPage={this.state.currentPage}
                handlePageChange={this.handlePageChange}
                />
+               <Footer/>
                {this.renderPage()}
            </div>
        )
