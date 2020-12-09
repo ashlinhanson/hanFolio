@@ -8,7 +8,7 @@ const About = () => {
       <div className="jumbotron jumbotron-fluid my-5">
         <div className="container">
           {/* profile photo */}
-          <img src="../assets/me.jpeg" alt="profile" id="profileImg" style={{height: "300px"}}/>
+          <img src="https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607557420/me_magmsb.jpg" alt="profile" id="profileImg" style={{height: "300px"}}/>
           {/* bio paragraph */}
           <p className="lead">
           My name is Ashli Hanson and I am a Full Stack web developer residing

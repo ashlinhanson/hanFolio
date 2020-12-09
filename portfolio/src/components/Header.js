@@ -7,7 +7,7 @@ function Header(props) {
 
       <div className="navbar-brand" id="name">
         {/* nav bar image */}
-        <img src="../../assets/navbarimg.png" style={{height: "75px", width: "75px", display: "inline-block"}} alt="logo" className="pb-2"/>
+        <img src="https://res.cloudinary.com/dkdwgbmxs/image/upload/v1607557486/navbarimg_wd3w9c.png" style={{height: "75px", width: "75px", display: "inline-block"}} alt="logo" className="pb-2"/>
         Ashli Hanson
       </div>
 
@@ -43,7 +43,7 @@ function Header(props) {
           <li className="nav-item">
             <a 
             className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"} 
-            href="#contact"
+            href="Contact"
             onClick={() => props.handlePageChange("Contact")}
             >
               Contact
