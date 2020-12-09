@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from 'cloudinary-react';
 
 function ProjectCard() {
     <div className="col-md-4">
