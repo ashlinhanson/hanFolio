@@ -1,154 +1,154 @@
 body {
-    background-color: lavender;
-    font-family: "Oswald", sans-serif;
+    background-color: lavender !important;
+    font-family: "Oswald", sans-serif !important;
   }
-  .portfolio-p {
-    text-align: center;
-  }
-  
-  .btn {
-    background-color: #f5cbc9;
-    border: pink;
-    color: rgb(66, 66, 66);
-    margin-top: 10px;
-    margin-bottom: 10px;
+.portfolio-p {
+    text-align: center !important;
   }
   
-  .btn:hover {
-    background-color: rgb(250, 143, 161);
-  }
-  .card-folio {
-    background-color: rgb(255, 237, 136);
-  }
-  
-  .navbar {
-    background-color: #a6d6e8;
+.btn {
+    background-color: #f5cbc9 !important;
+    border: pink !important;
+    color: rgb(66, 66, 66) !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
   
-  .container-folio {
-    margin-bottom: 20px;
+.btn:hover {
+    background-color: rgb(250, 143, 161) !important;
+  }
+.card-folio {
+    background-color: rgb(255, 237, 136) !important;
   }
   
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background-color: rgb(255, 237, 136);
-    color: black;
-    text-align: center;
+.navbar {
+    background-color: #a6d6e8 !important;
   }
   
-  .folioheader {
-    font-weight: bold;
-    text-align: center;
-    color: #69648c;
+.container-folio {
+    margin-bottom: 20px !important;
   }
   
-  .card-body {
-    text-align: center;
+.footer {
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 40px !important;
+    background-color: rgb(255, 237, 136) !important;
+    color: black !important;
+    text-align: center !important;
   }
   
-  .card-title {
-    font-weight: bolder;
+.folioheader {
+    font-weight: bold !important;
+    text-align: center !important;
+    color: #69648c !important;
   }
   
-  .card-body-index {
-    margin: 10px;
+.card-body {
+    text-align: center !important;
   }
   
-  h1 {
-    font-family: "Grand Hotel", cursive;
-    font-size: 60px;
-    color: #69648c;
+.card-title {
+    font-weight: bolder !important;
   }
   
-  #name {
-    font-family: "Grand Hotel", cursive;
-    font-size: 60px;
-    color: #69648c;
+.card-body-index {
+    margin: 10px !important;
   }
   
-  .fa {
-    padding: 5px;
-    font-size: 30px;
-    width: 40px;
-    text-decoration: none;
-    border-radius: 40%;
+h1 {
+    font-family: "Grand Hotel", cursive !important;
+    font-size: 60px !important;
+    color: #69648c !important;
+  }
+#name {
+    font-family: "Grand Hotel", cursive !important;
+    font-size: 60px !important;
+    color: #69648c !important;
   }
   
-  .fa:hover {
-    opacity: 0.7;
+.fa {
+    padding: 5px !important;
+    font-size: 30px !important;
+    width: 40px !important;
+    text-decoration: none !important;
+    border-radius: 40% !important;
   }
   
-  .fa-instagram {
-    background: #f5cbc9;
-    color: white;
+.fa:hover {
+    opacity: 0.7 !important;
   }
   
-  .fa-linkedin {
-    background: #f5cbc9;
-    color: white;
+.fa-instagram {
+    background: #f5cbc9 !important;
+    color: white !important;
   }
   
-  .fa-github {
-    background: #f5cbc9;
-    color: white;
+.fa-linkedin {
+    background: #f5cbc9 !important;
+    color: white !important;
   }
   
-  .nav-link {
-    font-size: 32px;
-    float: right;
+.fa-github {
+    background: #f5cbc9 !important;
+    color: white !important;
   }
   
-  .container-intro {
-    padding-bottom: 40px;
+.nav-link {
+    font-size: 32px !important;
+    float: right !important;
   }
   
-  .card {
-    border: solid;
-    border-color: rgb(255, 237, 136);
-    margin: 10px;
+.container-intro {
+    padding-bottom: 40px !important;
   }
   
-  #find-links {
-    padding: 5px;
+.card {
+    border: solid !important;
+    border-color: rgb(255, 237, 136) !important;
+    margin: 10px !important;
   }
   
-  .jumbotron {
-    background-color: white;
-    border: solid 5px;
-    border-color: rgb(255, 237, 136);
-    margin: 10px;
+#find-links {
+    padding: 5px !important;
   }
   
-  #profileImg {
-    float: right;
-    border-radius: 50%;
-    border: solid 5px;
-    border-color: #f5cbc9;
-    margin: 10px;
+.jumbotron {
+    background-color: white !important;
+    border: solid 5px !important;
+    border-color: rgb(255, 237, 136) !important;
+    margin: 10px !important;
   }
   
-  #contactP {
-    font-size: 20px;
+#profileImg {
+    float: right !important;
+    border-radius: 50% !important;
+    border: solid 5px !important;
+    border-color: #f5cbc9 !important;
+    margin: 10px !important;
   }
   
-  .listItems {
-    font-size: 20px;
+#contactP {
+    font-size: 20px !important;
   }
   
-  .links {
-    color: #a6d6e8;
+.list-group-item {
+    font-size: 28px !important;
   }
   
-  #contactContent {
-    text-align: center;
+.links {
+    color: #a6d6e8 !important;
   }
   
-  #backgroundCard {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
+#contactContent {
+    text-align: center !important;
+    margin: auto !important;
+  }
+  
+#backgroundCard {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none !important;
   }
   

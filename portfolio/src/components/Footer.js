@@ -1,13 +1,12 @@
 import React from "react";
-import "../components/pages/styles/index.css"
 
 function Footer() {
 
   return(
     <div className="footer mt-5">
-      <a href="https://www.instagram.com/ashlihanson/?hl=en" target="_blank" className="fa fa-instagram"></a>
-      <a href="https://www.linkedin.com/in/ashli-hanson-2689091b0/" target="_blank" className="fa fa-linkedin"></a>
-      <a href="https://github.com/ashlinhanson" target="_blank" className="fa fa-github"></a>
+      <a href="https://www.instagram.com/ashlihanson/?hl=en" className="fa fa-instagram" alt="link to instagram"/>
+      <a href="https://www.linkedin.com/in/ashli-hanson-2689091b0/" className="fa fa-linkedin" alt="link to linkedIn"/>
+      <a href="https://github.com/ashlinhanson" className="fa fa-github" alt="link to github"/>
     </div>
   )
 }

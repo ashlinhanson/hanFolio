@@ -1,7 +1,7 @@
 import React from "react";
 //import { Image } from 'cloudinary-react';
 import projects from "../assets/projects.json";
-import "../components/pages/styles/index.css";
+import "./pages/styles/index.css";
 
 function ProjectCard() {
 
@@ -16,8 +16,8 @@ function ProjectCard() {
                             <p className="card-text">
                                 {project.summary}
                             </p>
-                            <a href={project.deployLink} target="_blank" className="btn btn-primary">Check it out</a>
-                            <a href={project.gitHubLink} target="_blank" className="btn btn-primary">View the code</a>
+                            <a href={project.deployLink} target="_blank" rel="noreferrer" className="btn">Check it out</a>
+                            <a href={project.gitHubLink} target="_blank" rel="noreferrer" className="btn">View the code</a>
                         </div>
                 </div>
             </div>

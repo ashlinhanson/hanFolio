@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/pages/styles/index.css";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
@@ -22,35 +22,39 @@ function Header(props) {
         <ul className="nav navbar-nav navbar-right">
           
           <li className="nav-item">
-            <a 
-            className={props.currentPage === "About" ? "nav-link active" : "nav-link"} 
-            href="#about" 
-            onClick={() => props.handlePageChange("About")}
-            >
-              About
-            </a>
+            <Link 
+              to="/"
+                className={
+                  window.location.pathname === "/" || window.location.pathname === "/about" 
+                    ? "nav-link active" 
+                    : "nav-link"
+                } 
+              >
+                About
+            </Link>
           </li>
           
           <li className="nav-item">
-            <a 
-            className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"} 
-            href="#portfolio"
-            onClick={() => props.handlePageChange("Portfolio")}
-            >
-              Portfolio
-            </a>
+            <Link
+              to="portfolio" 
+                className={
+                  window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link" 
+                } 
+              >
+                Portfolio
+            </Link>
           </li>
           
           <li className="nav-item">
-            <a 
-            className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"} 
-            href="#cssontact"
-            onClick={() => props.handlePageChange("Contact")}
-            >
-              Contact
-            </a>
+            <Link 
+              to="/contact"
+                className={
+                  window.location.pathname === "/contact" ? "nav-link active" : "nav-link"
+                } 
+              >
+                Contact
+            </Link>
           </li>
-
         </ul>
       </div>
     </nav>

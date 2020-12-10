@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./styles/index.css";
+
 
 const Portfolio = () => {
 

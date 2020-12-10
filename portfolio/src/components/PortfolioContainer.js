@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import About from "./pages/About";
@@ -28,14 +29,16 @@ class PortfolioContainer extends Component {
 
    render() {
        return (
+        <Router>
            <div>
-               <Header
-               currentPage={this.state.currentPage}
-               handlePageChange={this.handlePageChange}
-               />
+               <Header/>
+               <Route exact path="/" component={About}/>
+               <Route exact path="/about" component={About}/>
+               <Route exact path="/portfolio" component={Portfolio}/>
+               <Route exact path="/contact" component={Contact}/>
                <Footer/>
-               {this.renderPage()}
            </div>
+        </Router>
        )
    }
 
