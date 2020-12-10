@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hanFolio/static/css/main.d428e836.chunk.css",
+    "main.js": "/hanFolio/static/js/main.72f5a157.chunk.js",
+    "main.js.map": "/hanFolio/static/js/main.72f5a157.chunk.js.map",
+    "runtime-main.js": "/hanFolio/static/js/runtime-main.387e52f5.js",
+    "runtime-main.js.map": "/hanFolio/static/js/runtime-main.387e52f5.js.map",
+    "static/css/2.20aa2d7b.chunk.css": "/hanFolio/static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.343b5874.chunk.js": "/hanFolio/static/js/2.343b5874.chunk.js",
+    "static/js/2.343b5874.chunk.js.map": "/hanFolio/static/js/2.343b5874.chunk.js.map",
+    "index.html": "/hanFolio/index.html",
+    "static/css/2.20aa2d7b.chunk.css.map": "/hanFolio/static/css/2.20aa2d7b.chunk.css.map",
+    "static/css/main.d428e836.chunk.css.map": "/hanFolio/static/css/main.d428e836.chunk.css.map",
+    "static/js/2.343b5874.chunk.js.LICENSE.txt": "/hanFolio/static/js/2.343b5874.chunk.js.LICENSE.txt",
+    "static/media/resume.3d1f06af.pdf": "/hanFolio/static/media/resume.3d1f06af.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.387e52f5.js",
+    "static/css/2.20aa2d7b.chunk.css",
+    "static/js/2.343b5874.chunk.js",
+    "static/css/main.d428e836.chunk.css",
+    "static/js/main.72f5a157.chunk.js"
+  ]
+}
