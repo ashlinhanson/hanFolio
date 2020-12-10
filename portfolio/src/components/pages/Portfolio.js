@@ -8,18 +8,12 @@ const Portfolio = () => {
 
     return(
     <div>
-        {/* <!--Portfolio--> */}
-        <h1 className="folioheader">Project Examples</h1>
-        {/* <!--top row of card--> */}
-            <div className="card my-5" id="backgroundCard">
-                <div className="container-folio">
-                    <div className="col-md-12">
-                        <div className="row">
-                            <ProjectCard />
-                        </div>
-                    </div>
-                </div>
+        <div className="container text-center col-md-10 p-3 mb-5 rounded">
+            <div className="text-info pl-3 mb-2">
+                <h1 className="folioheader">Project Examples</h1>
             </div>
+                <ProjectCard />
+        </div>
     </div>
     );
 }

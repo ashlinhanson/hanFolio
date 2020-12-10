@@ -101,10 +101,6 @@ h1 {
     float: right !important;
   }
   
-.container-intro {
-    padding-bottom: 40px !important;
-  }
-  
 .card {
     border: solid !important;
     border-color: rgb(255, 237, 136) !important;
